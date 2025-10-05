@@ -179,8 +179,8 @@ class Student {
 }
 
 // Membuat objek student
-let student1 = new Student("arvin", "123456", "sastra jawa", 1950);
-let student2 = new Student("arvin ganteng", "654321", "sastra jawa", 2025);
+let student1 = new Student("mikael", "123456", "bahasa inggris", 1950);
+let student2 = new Student("mikael putra", "654321", "bahasa inggris", 2025);
 
 // Memanggil method
 student1.introduce();
@@ -190,4 +190,5 @@ student1.isSenior();
 student2.isSenior();
 
 student1.displayInfo();
+
 student2.displayInfo();
